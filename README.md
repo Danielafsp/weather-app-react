@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# ⛅ Weather App — React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A weather application built with React that displays real-time weather conditions and a multi-day forecast for any city in the world. This project was the final project of the [SheCodes React](https://www.shecodes.io/) program, and marks the evolution from the [vanilla JS version](https://github.com/Danielafsp/Weather-app) to a fully component-based React architecture.
 
-## Available Scripts
+🔗 **Live demo:** [skycheck-weather.netlify.app](https://skycheck-weather.netlify.app/)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📋 About the Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+After building a weather app with vanilla JavaScript, this React version was developed to apply the same core functionality using a modern component-based approach. The focus was on understanding how React manages UI through state and props, and how to structure an app into reusable components.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🔍 Search weather by city name
+- 🌡️ Current temperature in Celsius
+- 💧 Humidity and wind speed display
+- 🕐 Local time and weather description
+- 🎞️ Animated weather icons (via `react-animated-weather`)
+- 📱 Responsive layout with Bootstrap 5
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Technology | Purpose |
+|---|---|
+| React 18 | Component-based UI |
+| JavaScript (ES6+) | App logic |
+| CSS3 | Custom styling |
+| [Axios](https://axios-http.com/) | HTTP requests |
+| [Bootstrap 5](https://getbootstrap.com/) + React-Bootstrap | Responsive layout and UI components |
+| [react-animated-weather](https://www.npmjs.com/package/react-animated-weather) | Animated weather icons |
+| [SheCodes Weather API](https://www.shecodes.io/learn) | Real-time weather data |
+| [Netlify](https://www.netlify.com/) | Deployment |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🚀 Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# Clone the repository
+git clone https://github.com/Danielafsp/final-project.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Navigate to the project folder
+cd final-project
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Install dependencies
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Start the development server
+npm start
+```
 
-## Learn More
+The app will open at `http://localhost:3000`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📁 Project Structure
 
-### Code Splitting
+```
+final-project/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/       # React components (Weather, Forecast, etc.)
+│   ├── App.js            # Root component
+│   ├── App.css           # Global styles
+│   └── index.js          # Entry point
+├── package.json
+└── README.md
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🔄 Vanilla JS vs React — What Changed
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project was built after the [vanilla JS weather app](https://github.com/Danielafsp/Weather-app), with the same features but a completely different architecture:
 
-### Making a Progressive Web App
+| | Vanilla JS | React |
+|---|---|---|
+| UI updates | Manual DOM manipulation | State-driven re-renders |
+| Code structure | Single script file | Reusable components |
+| Data flow | Global variables | Props and state |
+| Side effects | Inline callbacks | `useEffect` hook |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 💡 What I Learned
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Structuring an app into independent, reusable React components
+- Managing state with `useState` and side effects with `useEffect`
+- Passing data between components via props
+- Integrating third-party React libraries (`react-animated-weather`, `react-bootstrap`)
+- Building and deploying a React app to Netlify
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 👩‍💻 Author
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Daniela Pereira**
+[GitHub](https://github.com/Danielafsp) · [LinkedIn](https://www.linkedin.com/in/daniela-pereira-b42305117/)
