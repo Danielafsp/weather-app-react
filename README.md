@@ -42,7 +42,7 @@ After building a weather app with vanilla JavaScript, this React version was dev
 
 ```bash
 # Clone the repository
-git clone https://github.com/Danielafsp/final-project.git
+git clone https://github.com/Danielafsp/weather-app-react.git
 
 # Navigate to the project folder
 cd final-project
